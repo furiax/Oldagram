@@ -5,12 +5,13 @@ html, body {
     font-size: 13px;
     background-color: #C6C6C6;
 }
-header, main{
+header, .post{
     margin: 0 auto;
     width: 375px;
     background-color: white;
 }
-main{
+
+.post{
     margin-bottom: 25px;
 }
 
@@ -67,4 +68,7 @@ header{
 }
 .like-count{
     margin: 12px 0;
+}
+.caption{
+    margin: 0;
 }
