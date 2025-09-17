@@ -28,7 +28,6 @@ const posts = [
     }
 ]
 const mainEl = document.getElementById("main")
-const heartEl = document.getElementById("heart")
 
 populatePosts()
 
