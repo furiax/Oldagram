@@ -5,6 +5,7 @@ html, body {
     font-size: 13px;
     background-color: #C6C6C6;
 }
+
 header, .post{
     margin: 0 auto;
     width: 375px;
@@ -39,14 +40,17 @@ header{
     gap: 7px;
     margin: 0;
 }
+
 .name, .like-count, .comment-username{
     font-weight: bold;
     margin: 0;
 }
+
 .location{
     font-size: 12px;
     margin:0;
 }
+
 .post-content{
     width: 375px;
     height: 375px;
@@ -58,17 +62,25 @@ header{
     width: 23px;
     height: 23px;
 }
+
+.icon:hover{
+   opacity: 0.5;
+   transform: scale(0.95);
+}
+
 .icons{
     display: flex;
     gap: 20px;
-    
 }
+
 .comment-section{
     padding: 21px 19px 16px 10px;
 }
+
 .like-count{
     margin: 12px 0;
 }
+
 .caption{
     margin: 0;
 }
